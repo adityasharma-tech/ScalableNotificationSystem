@@ -1,0 +1,18 @@
+{
+  "name": "scalablenotificationsystem-consumer",
+  "version": "1.0.0",
+  "main": "src/consumer.js",
+  "scripts": {
+    "dev": "nodemon src/consumer.js",
+    "start": "node src/consumer.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.1.9"
+  }
+}
