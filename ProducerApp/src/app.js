@@ -54,7 +54,7 @@ app.post('/create-topics/:id', jwtVerify, (req, res)=>{
 
 app.post('/notify', jwtVerify, (req, res)=>{    
     try {
-        createUpdates("notification-update", "notification", {
+        createUpdates("transactional_notify", "notification", {
             to: req.body['to'],
             message: req.body['message']
         })
