@@ -2,5 +2,5 @@ import { Kafka } from "kafkajs";
 
 export const kafka = new Kafka({
   clientId: "notification-system",
-  brokers: [`192.168.99.116:9092`]
+  brokers: [`127.0.0.1:9092`]
 });
